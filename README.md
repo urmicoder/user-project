@@ -2,7 +2,7 @@
 
 
 
-pc@hp:~/P/user-project/rbac-system-arch$ docker network create urmier
+# pc@hp:~/P/user-project/rbac-system-arch$ docker network create urmier
 86968f034a95f618e25649439858d0606397925175f0795eb1b64d57dd6abd3c
 pc@hp:~/P/user-project/rbac-system-arch$ docker run -d --name redis --network=urmier -p 6379:6379 redis
 Unable to find image 'redis:latest' locally
